@@ -1,0 +1,27 @@
+{
+    "name": "Bulgarian",
+    "description": "Bulgarian language programming for Raku with heritage and modern computing terminology",
+    "version": "0.0.1",
+    "authors": [
+        "Danslav Slavenskoj",
+        "Anton Antonov"
+    ],
+    "auth": "zef:antononcube",
+    "build-depends": [],
+    "test-depends": [
+        "Test"
+    ],
+    "provides": {
+        "Bulgarian": "lib/Bulgarian.rakumod",
+        "Русский": "lib/Bulgarian.rakumod"
+    },
+    "license": "Artistic-2.0",
+    "tags": [
+        "localization",
+        "Bulgarian",
+        "Language",
+        "i18n"
+    ],
+    "api": "1",
+    "source-url": "https://github.com/antononcube/Raku-Localization-Bulgarian"
+}
