@@ -134,7 +134,7 @@ sub EXPORT(|) {
     my &закръгли = sub ($x) { round($x) };                # round
     my &таван = sub ($x) { ceiling($x) };             # ceiling
     my &под = sub ($x) { floor($x) };                   # floor
-    my &отрежи = sub ($x) { truncate($x) };              # truncate
+    my &отсечи = sub ($x) { truncate($x) };              # truncate
     
     # Number theory
     my &НОД = sub ($a, $b) { $a gcd $b };               # greatest common divisor
@@ -1016,7 +1016,7 @@ sub EXPORT(|) {
         '&закръгли'            => &закръгли,
         '&таван'            => &таван,
         '&под'                => &под,
-        '&отрежи'              => &отрежи,
+        '&отсечи'              => &отсечи,
         '&НОД'                => &НОД,
         '&НОК'                => &НОК,
         '&просто'            => &просто,
